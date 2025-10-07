@@ -3,8 +3,34 @@
 > **이미지 한 장 또는 텍스트 입력만으로 수학 문제의 단원을 자동 분류하고, 유사한 문제를 추천해주는 Streamlit 기반 웹 애플리케이션**
 
 - ED-project(https://github.com/sonkeehoon/ED-project) 의 일부 모델을 웹 앱으로 구현했습니다
+
+### **웹 앱 구현(결과만 확인하고 싶은 경우)**
+- [https://huggingface.co/spaces/santakan/gr-math-genius](https://huggingface.co/spaces/santakan/gr-math-genius)
 ---
 
+![alt text](image-1.png)
+
+## '이미지로 분석' 실행 과정
+
+### 첫 화면
+![alt text](과정0.png)
+---
+### 1. 이미지 업로드
+
+![alt text](과정1.png)
+---
+### 2. '유형 분석하기' 버튼 클릭
+![alt text](과정2.png)
+---
+### 3. 문제유형 출력
+![alt text](과정3.png)
+---
+### 4. '문제 추천받기' 버튼 클릭
+![alt text](과정4.png)
+---
+### 5. 해당 문제와 유사한 문제 출력
+![alt text](과정5.png)
+---
 ## 🧠 프로젝트 개요
 
 이 애플리케이션은 **수학 문제의 텍스트나 이미지**를 입력받아 다음과 같은 과정을 자동으로 수행합니다:
@@ -157,10 +183,6 @@ docker run -p 8501:8501 math-analyzer
 
 - **`.env` 파일은 절대 공개 저장소에 업로드하지 마세요.**
 ---
-### ✨ 예시 화면
-| 이미지 분석                                 | 텍스트 분석                                |
-| -------------------------------------- | ------------------------------------- |
-| ![alt text](./data/img_input.png) | ![alt text](./data/text_input.png) |
 
 ### 🏁 License
 
