@@ -176,7 +176,7 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue")) as demo:
         """
         <div style='text-align: center; font-size: 15px; color: #555;'>**📘 develop by skh**</div>
         <div style='text-align: center; font-size: 15px; color: #555;'>
-            [github] <a href="https://github.com/sonkeehoon/ED-app">https://github.com/sonkeehoon/ED-app</a>
+            [github] <a href="https://github.com/sonkeehoon">https://github.com/sonkeehoon</a>
         </div> 
         <div style='text-align: center; font-size: 15px; color: #555;'>
             [blog]   <a href = "https://blog.naver.com/djfkfk12345">https://blog.naver.com/djfkfk12345</a>
