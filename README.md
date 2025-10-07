@@ -8,28 +8,28 @@
 - [https://huggingface.co/spaces/santakan/gr-math-genius](https://huggingface.co/spaces/santakan/gr-math-genius)
 ---
 
-![alt text](image-1.png)
+![alt text](data/image-1.png)
 
 ## '이미지로 분석' 실행 과정
 
 ### 첫 화면
-![alt text](과정0.png)
+![alt text](data/과정0.png)
 ---
 ### 1. 이미지 업로드
 
-![alt text](과정1.png)
+![alt text](data/과정1.png)
 ---
 ### 2. '유형 분석하기' 버튼 클릭
-![alt text](과정2.png)
+![alt text](data/과정2.png)
 ---
 ### 3. 문제유형 출력
-![alt text](과정3.png)
+![alt text](data/과정3.png)
 ---
 ### 4. '문제 추천받기' 버튼 클릭
-![alt text](과정4.png)
+![alt text](data/과정4.png)
 ---
 ### 5. 해당 문제와 유사한 문제 출력
-![alt text](과정5.png)
+![alt text](data/과정5.png)
 ---
 ## 🧠 프로젝트 개요
 
