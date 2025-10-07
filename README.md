@@ -2,7 +2,7 @@
 
 > **이미지 한 장 또는 텍스트 입력만으로 수학 문제의 단원을 자동 분류하고, 유사한 문제를 추천해주는 Streamlit 기반 웹 애플리케이션**
 
-- ED-project(https://github.com/sonkeehoon/ED-project)의 일부 모델을 웹 앱으로 구현했습니다
+- ED-project(https://github.com/sonkeehoon/ED-project) 의 일부 모델을 웹 앱으로 구현했습니다
 ---
 
 ## 🧠 프로젝트 개요
