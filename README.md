@@ -37,7 +37,7 @@
 
 1. **OCR (Pix2Text)**  
    - 수학 문제 이미지를 인식하여 LaTeX 수식이 포함된 텍스트로 변환합니다.  
-   - HuggingFace의 `santakan/Pix2Text-Demo` 모델을 API 형태로 사용합니다.
+      - pix2text[multilingual]를 통해 수식 부분은 Latex로, 텍스트 부분은 그대로 텍스트로 변환합니다
 
 2. **문제 단원 분류 (Text Classification)**  
    - 미리 학습된 `KLUE-BERT` 기반 분류 모델(`saved_model/`)을 이용해 해당 문제의 단원을 예측합니다.
