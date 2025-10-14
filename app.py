@@ -174,7 +174,6 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue")) as demo:
     gr.Markdown("---")
     gr.Markdown(
         """
-        <div style='text-align: center; font-size: 15px; color: #555;'>**📘 develop by skh**</div>
         <div style='text-align: center; font-size: 15px; color: #555;'>
             [github] <a href="https://github.com/sonkeehoon">https://github.com/sonkeehoon</a>
         </div> 
@@ -185,4 +184,4 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue")) as demo:
     )
 
 if __name__ == "__main__":
-    demo.launch(share=True)
+    demo.launch(share=True, debug=True)
