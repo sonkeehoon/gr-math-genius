@@ -179,8 +179,6 @@ docker run -p 8501:8501 math-analyzer
 
 - HuggingFace의 Pix2Text-Demo는 **요청 제한(429 Too Many Requests)** 이 발생할 수 있습니다.
 
-- **해결책**: 개인 계정으로 Space를 Duplicate 하여 자체 토큰으로 사용하세요.
-
 - **`.env` 파일은 절대 공개 저장소에 업로드하지 마세요.**
 ---
 
