@@ -158,22 +158,12 @@ label, score = text_to_category("함수 f(x)=x^2+1의 미분계수를 구하시�
 print(label)  # → '미분법'
 ```
 ---
-### 🚀 배포 (연구 중)
+### 🚀 배포 방식
 
-Docker를 통한 경량 배포 예시:
-```dockerfile
-FROM python:3.12-slim
-WORKDIR /app
-COPY . .
-RUN pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
-EXPOSE 8501
-CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0"]
-```
+**Hugging Face**
+- 컨테이너 기반 서버 spaces 생성
+- gradio 웹 인터페이스 구축: https://huggingface.co/spaces/santakan/gr-math-genius/tree/main
 
-```bash
-docker build -t math-analyzer .
-docker run -p 8501:8501 math-analyzer
-```
 ---
 ### 🔒 주의사항
 
